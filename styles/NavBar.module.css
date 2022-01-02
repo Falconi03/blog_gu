@@ -1,0 +1,16 @@
+.Navbar{
+    display: flex;
+    list-style: none;
+
+}
+.Navbar li{
+    padding-left: 2rem;
+    color: #555;
+    transition: 0,5;
+}
+
+.Navbar li:hover{
+    color: #000;
+    font-size: large;
+    
+}

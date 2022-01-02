@@ -1,0 +1,15 @@
+.Redes{
+    display: flex;
+    list-style: none;
+}
+
+.Redes li{
+    padding-left: 2rem;
+    color: #555;
+    transition: 0,5;
+}
+
+.Redes li:hover{
+    color: #000;
+    font-size: large;
+}
