@@ -7,7 +7,7 @@
 }
 
 .Container h1{
-  border-top: 1px solid black;
+  
   padding: 1rem;
   text-align: center;
 }
@@ -114,4 +114,30 @@
 
 .TextoSobre h2{
   padding-bottom: 1rem;
+}
+
+/*page Admin*/
+
+.Admin{
+  align-items: center;
+	justify-content: center;
+	display: flex;
+	height: 76vh;
+}
+
+.Login{
+  background-color: #fff;
+	border: 1px solid #aaa;
+	padding: 1rem;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #aaa;
+	list-style: none;
+}
+
+.Login h1{
+  padding-top: 0;
+}
+
+.Login li{
+  padding: 10px;
 }
