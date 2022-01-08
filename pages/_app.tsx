@@ -1,7 +1,10 @@
-import MainContainer from '../components/MainContainer.jsx'
+import { AppProps } from 'next/app'
+
+
+import MainContainer from '../components/MainContainer'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <MainContainer>
       <Component {...pageProps} />

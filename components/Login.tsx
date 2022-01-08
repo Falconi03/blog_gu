@@ -7,6 +7,7 @@ import axios from "axios";
 import styles from '../styles/Home.module.css'
 
 export default () => {
+    
     async function cadastroUsuario(e) {
         e.preventDefault()
         console.log(`usuario ${name} foi cadastrado com a senha ${password}`)

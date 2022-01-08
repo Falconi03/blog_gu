@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 import styles from '../styles/Header.module.css'
-import Navbar from './Navbar.jsx'
+import Navbar from './Navbar'
 import RedesSociais from './RedesSociais'
 
 export default () => {
