@@ -8,8 +8,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
-    "strictNullChecks": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
@@ -24,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/Blog/index.jsx", "pages/index.jsx", "pages/Blog/[uid].tsx"  ],
   "exclude": [
     "node_modules"
   ]

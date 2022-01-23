@@ -1,8 +1,13 @@
-import Login from "../components/Login"
+
+
+import styles from '../styles/Home.module.css'
 
 
 export default () => {
-    return(
-        <Login></Login>
+
+    return (
+      <div className={styles.Container}>
+       <h1>admin</h1>
+      </div>
     )
 }

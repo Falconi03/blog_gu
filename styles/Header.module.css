@@ -1,28 +1,50 @@
-.Header{
-    position: fixed;
-	width: 100%;
-    display: flex;
-    min-height: 80px;
-    max-height: 80px;
-    background-color: #fff;
-    align-items: center;
-    border-bottom: 1px solid #000;
-    justify-content: space-between;
+@media screen and (min-width: 767px){
+    .Header{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        min-height: 80px;
+        max-height: 80px;
+        background-color: #fff;
+        align-items: center;
+        border-bottom: 1px solid #000;
+        justify-content: space-between;
+        
+    }
+
+    .Nome{
+        color: #333;
+        padding-left: 5rem;
+    }
+    .Nome :hover{
+        color: #000;
+    }
+    .Redes{
+        padding-right: 4rem;
+    }
+
+    .Header h1{
+        font-size: x-large;
+        display: grid;
+        
+    }
+    .Header span{
+        font-size: x-large;
+        padding-left: 1rem;
+    }
     
 }
-
-.Nome{
-    padding-left: 5rem;
-}
-.Redes{
-    padding-right: 4rem;
-}
-
-.Header h1{
-    font-size: x-large;
-    
-}
-.Header h2{
-    font-size: x-large;
-    padding-left: 1rem;
+@media screen and (max-width: 766px){
+    .Navbar{
+        display: none;
+    }
+    .Redes{
+        display: none;
+    }
+    .Header{
+        text-align: center;
+        border-bottom: 2px solid #000;
+        height: 100px;
+        justify-content: center;
+    }
 }

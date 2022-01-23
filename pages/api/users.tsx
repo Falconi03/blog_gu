@@ -29,7 +29,7 @@ export default async (
         res.status(200).json(response.ops[0])
     }else{
         
-        res.status(400).json({message:'wrong request method'})
+        res.status(400).json({error:'wrong request method'})
     }
     
 }

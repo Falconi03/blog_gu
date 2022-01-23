@@ -1,0 +1,25 @@
+.Post{
+    padding-top: 80px;
+    min-height: 90vh;
+    background-color: #fffef9;
+    color: #555;
+    text-align-last: center;
+}
+
+.Img{
+    padding-top: 4rem;
+    height: 50%;
+	width: 60%;
+}
+
+.TextPost{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: -webkit-center;
+    
+}
+
+.TextPost p {
+    padding-top: 2rem;
+    width: 60%;
+}

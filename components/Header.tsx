@@ -10,8 +10,7 @@ export default () => {
             <div className={styles.Nome}>
                 <Link href="/">
                     <a>
-                        <h1>Gustavo</h1>
-                        <h2>Marreiros</h2>
+                        <h1>Gustavo<span>Marreiros</span></h1>
                     </a>
                 </Link>
                 
