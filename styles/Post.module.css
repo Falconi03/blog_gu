@@ -23,3 +23,12 @@
     padding-top: 2rem;
     width: 60%;
 }
+
+@media screen and (max-width: 766px){
+
+    .Img{
+        padding-top: 0;
+        height: 100%;
+        width: 90%;
+    }
+}

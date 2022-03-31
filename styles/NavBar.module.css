@@ -1,18 +1,41 @@
+.Navbar{
+    display: flex;
+    list-style: none;
+
+}
+.Navbar li{
+    padding-left: 2rem;
+    color: #555;
+    transition: 0.5s;
+}
+
+.Navbar li:hover{
+    color: #000;
+    font-size: large;
+    text-decoration: underline;
+    transition: 0.5s;
+    
+}
+
+@media screen and (max-width: 766px){
+
     .Navbar{
-        display: flex;
-        list-style: none;
-
+        flex-direction: column;
+        font-size: xx-large;
+        font-weight: bold;
+        
     }
+
     .Navbar li{
-        padding-left: 2rem;
-        color: #555;
-        transition: 0.5s;
+        padding: 2rem;
+        color: #fff;
     }
-
+    
     .Navbar li:hover{
-        color: #000;
-        font-size: large;
+        font-size: xx-large;
         text-decoration: underline;
+        color: #fff;
         transition: 0.5s;
         
     }
+}

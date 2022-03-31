@@ -1,0 +1,23 @@
+.MenuLateral{
+    position: fixed;
+    filter: grayscale();
+	background-color: rgba(0, 0, 0, 0.87);
+	height: 100%;
+    width: 50%;
+    
+}
+
+.Navbar{
+    padding-top: 4rem;
+}
+
+@media screen and (min-width: 767px){
+    .MenuLateral{
+        display: none;
+    }
+}
+
+.menuHide{
+    display: none;
+}
+

@@ -18,33 +18,33 @@ export default (props) =>{
           <h3>Soul To Squeeze - Red Hot Chili Peppers</h3>
         </div>
       </div>
-      <Link href='/Blog'>
-        <a className={styles.LinkBlog}>
-          <h1><FaBookOpen/> Blog <FaPenAlt/></h1>
-        </a>
-      </Link>
       <div className={styles.Blog}>
-                {postHome.map((post)=>(
-                  <Link href={`/Blog/${post.uid}`}>
-                    <a>
-                      <div className={styles.Post}>
-                          <div  className={styles.ImgPost}>
-                              <img
-                              className={styles.Img}
-                              src={post.data.foto.url}
-                              alt=''
-                              />
-                          </div>
-                          <div className={styles.TextPost}>
-                              <h1>{post.data.title}</h1>
-                              <p>{post.data.text}</p>
-                              
-                          </div>
-                      </div>
-                    </a>
-                  </Link>
-            ))}
-            </div>
+        <Link href='/Blog'>
+          <a className={styles.LinkBlog}>
+            <h1><FaBookOpen/> Blog <FaPenAlt/></h1>
+          </a>
+        </Link>
+          {postHome.map((post)=>(
+            <Link href={`/Blog/${post.uid}`}>
+              <a>
+                <div className={styles.Post}>
+                    <div  className={styles.ImgPost}>
+                        <img
+                        className={styles.Img}
+                        src={post.data.foto.url}
+                        alt=''
+                        />
+                    </div>
+                    <div className={styles.TextPost}>
+                        <h1>{post.data.title}</h1>
+                        <p>{post.data.text}</p>
+                        
+                    </div>
+                </div>
+              </a>
+            </Link>
+          ))}
+      </div>
     </div>
   )
 }

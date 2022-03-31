@@ -13,3 +13,22 @@
     color: #000;
     font-size: large;
 }
+
+@media screen and (max-width: 766px){
+
+    .Redes{
+        flex-direction: column;
+        font-size: xx-large;
+        font-weight: bold;
+        color: #fff
+    }
+    .Redes li{
+        padding: 2rem;
+        color: #fff;
+    }
+    
+    .Redes li:hover{
+        color: #fff;
+
+    }
+}

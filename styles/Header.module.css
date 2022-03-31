@@ -32,6 +32,9 @@
         font-size: x-large;
         padding-left: 1rem;
     }
+    .btnMenu{
+        display: none;
+    }
     
 }
 @media screen and (max-width: 766px){
@@ -44,7 +47,34 @@
     .Header{
         text-align: center;
         border-bottom: 2px solid #000;
-        height: 100px;
-        justify-content: center;
+        font-family: -webkit-pictograph;
+        display: flex;
+	    justify-content: space-evenly;
     }
+    .Header h1{
+        font-size: xx-large;
+        display: grid;
+        padding-right: 2rem;
+        
+    }
+
+    .Header span{
+        font-size: xx-large;
+        padding-left: 4rem;
+    }
+
+    .Nome{
+        color: #444;
+
+    }
+    
+    .btnMenu{
+        width: 50px;
+        height: 50px;
+        font-size: x-large;
+        border: none;
+        background-color: transparent;
+        padding-top: 26px;
+    }
+
 }

@@ -1,22 +1,17 @@
-@media screen and (min-width: 767px){
-    .Footer{
-        width: 100%;
-        min-height: 100px;
-        display: flex;
-        background-color: #bbb;
-        color: #fff;
-        align-items: center;
-        justify-content: center;
-        border-top: 1px solid #000;
-    }
+.Footer{
+    width: 100%;
+    min-width: min-content;
+    min-height: 100px;
+    display: flex;
+    background-color: #bbb;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000;
 }
+
 @media screen and (max-width: 766px){
     .Footer{
-        display: flex;
-        justify-content: space-around;
-        border-top: 1px solid #000;
-        background-color: #bbb;
-        height: 50px;
-        align-items: center;
+        display: none;
     }
 }

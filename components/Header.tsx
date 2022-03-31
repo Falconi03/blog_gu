@@ -1,10 +1,16 @@
 import Link from 'next/link'
+import { useContext } from 'react'
+import { Context } from '../context/ContextMenu'
 
 import styles from '../styles/Header.module.css'
 import Navbar from './Navbar'
 import RedesSociais from './RedesSociais'
+import { FaBars } from 'react-icons/fa'
 
 export default () => {
+
+    const {ShowMenu} = useContext(Context)
+
     return(
         <div className={styles.Header}>
             <div className={styles.Nome}>
@@ -15,6 +21,7 @@ export default () => {
                 </Link>
                 
             </div>
+            <button className={styles.btnMenu} onClick={()=>ShowMenu()}><FaBars/></button>
             <div className={styles.Navbar}>
                 <Navbar></Navbar>
             </div>
