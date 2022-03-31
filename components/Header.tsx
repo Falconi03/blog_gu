@@ -7,7 +7,7 @@ import Navbar from './Navbar'
 import RedesSociais from './RedesSociais'
 import { FaBars } from 'react-icons/fa'
 
-export default () => {
+export default function Header (){
 
     const {ShowMenu} = useContext(Context)
 

@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css'
 
-export default () => {
+export default function Sobre(){
     return(
         <div className={styles.Container}>
             <h1>Sobre</h1>

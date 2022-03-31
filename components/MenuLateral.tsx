@@ -4,7 +4,7 @@ import styles from '../styles/MenuLateral.module.css'
 import Navbar from './Navbar'
 import RedesSociais from './RedesSociais'
 
-export default () =>{
+export default function MenuLateral(){
 
     const {menu} = useContext(Context)
 

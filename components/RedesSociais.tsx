@@ -3,7 +3,7 @@ import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 import styles from '../styles/RedesSociais.module.css'
 
-export default () => {
+export default function RedesSociais(){
     return(
         <ul className={styles.Redes}>
             <li><Link href='https://web.facebook.com/gustavo.marreiros'><a target="_blank"><FaFacebook/></a></Link></li>

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 import styles from "../styles/Navbar.module.css"
 
-export default () => {
+export default function Navbar(){
     return(
         <ul className={styles.Navbar}>
             <li><Link href='/'><a>INICIO</a></Link></li>

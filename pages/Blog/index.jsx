@@ -10,8 +10,8 @@ const Blog = (props) => {
         <div className={styles.Container}>
             <h1><FaBookOpen/> Blog <FaPenAlt/></h1>
             <div className={styles.Blog}>
-                {posts.map((post)=>(
-                <Link href={`/Blog/${post.uid}`}>
+                {posts.map((post, id)=>(
+                <Link href={`/Blog/${post.uid}`} key={id}>
                     <a>
                         <div className={styles.Post}>
                             <div  className={styles.ImgPost}>
